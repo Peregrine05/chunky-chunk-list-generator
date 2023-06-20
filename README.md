@@ -22,4 +22,4 @@ optional arguments:
   -c, --chunks  Use chunk coordinates instead of block coordinates
 ```
 
-If successful, the script will write a "chunkList.json" file to the working directory. Replace the `"chunkList"` section of a Chunky "scene.json" file with the contents of the "chunkList.json" file. Delete the "scene.octree2" file, if present. Load the scene in Chunky and Chunky will load the chunks specified in the "scene.json" file.
+If successful, the script will write a "chunkList.json" file to the working directory. Replace the `"chunkList"` section of a Chunky "scene.json" file with the contents of the "chunkList.json" file, without the curly braces. Delete the "scene.octree2" file, if present. Load the scene in Chunky and Chunky will load the chunks specified in the "scene.json" file.
